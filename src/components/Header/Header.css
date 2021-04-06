@@ -1,0 +1,21 @@
+.logo{
+    line-height: 45px;
+}
+.logo a{
+    color: #e0e0e0;
+}
+Nav a{
+    font-size:1.25rem;
+    color: #e0e0e0!important;
+    padding-left: 2rem!important;
+}
+Nav a:hover{
+    text-decoration:none;
+}
+.logo a:hover{
+    text-decoration:none;
+}
+body{
+   font-family: 'Raleway', sans-serif;
+   font-weight:400;
+}
