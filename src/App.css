@@ -1,3 +1,57 @@
-body{
-    max-width:100%;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*responsive design*/
+@media all and (max-width:1230px){
+    .CourseCard {
+        width: 30%!important;
+    }
+}
+
+@media all and (max-width:992px){
+    .CourseCard {
+        width: 46%!important;
+    }
+    .hero-text {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tutorialsText h2 {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+}
+@media all and (max-width:768px){
+    .CourseCard {
+        width: 100%;
+    }
+    .hero-text h1 {
+        font-size: 30px;
+    }
+    .blogTitle {
+        margin-left: 0px!important;
+        font-size: 25px;
+        text-align: left;
+    }
+    .tutorialsText h2 {
+        margin-top: 40px;
+        font-size: 25px;
+    }
+}
+@media all and (max-width:645px){
+    .CourseCard {
+        width: 100%!important;
+        text-align: center;
+    }
+    .tutorialsText {
+        width: 90%;
+        padding: 20px 0;
+    }
+    .tutorialsText h2 {
+        font-size: 20px;
+    }
+
 }

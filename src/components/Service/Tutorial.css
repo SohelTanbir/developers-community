@@ -1,0 +1,21 @@
+.tutorialContainer{
+    position: relative;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0,0,0.6), rgba(0,0,0.6)),
+    url('../../images/tutorialsBanner.jpg');
+    background-size: cover;
+    background-position:center;
+    height:40vh;
+    margin-bottom: 50px;
+}
+.tutorialsText{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    color:rgb(216, 216, 216);
+    text-align: center;
+}
+.tutorialsText h2{
+    margin-bottom: 15px;
+}

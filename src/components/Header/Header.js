@@ -7,14 +7,14 @@ const Header = () => {
         <div className="header bg-dark">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-2">
+                    <div className="col-md-2 col-6">
                         <div className="navbar-brand logo">
                             <Link to="/">Developers</Link>
                         </div>
                     </div>
-                    <div className="col-md-10 text-right">
-                        <nav className="navbar navbar-expand-lg">
-                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <div className="col-md-10 col-6 text-right float-right">
+                        <nav className="navbar navbar-expand-lg navbar-dark">
+                            <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNav">
@@ -23,7 +23,7 @@ const Header = () => {
                                         <Link to="/home">Home</Link>
                                     </li>
                                     <li>
-                                        <Link to="/service">Tutorials</Link>
+                                        <Link to="/tutorial">Tutorials</Link>
                                     </li>
                                     <li>
                                         <Link to="/blog">Blog</Link>

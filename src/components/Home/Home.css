@@ -5,11 +5,11 @@
 }
 .hero-banner img{
     width:100%;
-    height:83vh;
+    min-height:83vh;
 }
 .hero-text{
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 42%;
     left:50%;
     transform: translate(-50%, -50%);
@@ -27,7 +27,7 @@
 }
 .heroBtn{
     position:relative;
-    background:linear-gradient(#f609f6, #4610c5);
+    background:linear-gradient(orange, red);
     color:#fff;
     padding:7px 40px;
     display: inline-block;
@@ -42,7 +42,7 @@
     content: "";
     left: 0;
     top: 0;
-    background:linear-gradient(orange, red);
+    background:linear-gradient(#f609f6, #4610c5);
     width:0;
     height: 100%;
     display:block;
